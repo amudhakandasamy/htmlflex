@@ -42,5 +42,10 @@ body{
 /* Base style ends */
 .container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+    flex-basis: 50%;
 }
